@@ -1,0 +1,33 @@
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+/* 
+The logo will be at least 100px wide. 
+But will grow with viewport.
+And will 18% of VW, if VW greater than 1000px
+*/
+
+#logo {
+    width: max(100px, 18vw);
+    aspect-ratio: 35/4;
+    padding: 0.4em;
+    background-color: black;
+  }
+
+
+  header {
+    display: flex;
+    background-color: #1b1b32; 
+    height: 50px;
+    width: 100%;
+  }
+
+  h1 {
+    color: #f1be32;
+    font-size : min(5vw, 1.2em);
+  }
+
