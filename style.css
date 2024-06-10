@@ -19,15 +19,26 @@ And will 18% of VW, if VW greater than 1000px
   }
 
 
-  header {
+header {
     display: flex;
     background-color: #1b1b32; 
     height: 50px;
     width: 100%;
   }
 
-  h1 {
+h1 {
     color: #f1be32;
     font-size : min(5vw, 1.2em);
   }
 
+  nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+  }
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  
+} 
