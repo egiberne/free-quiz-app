@@ -1,4 +1,4 @@
-![Logo](QUEX%20-%20Main.svg)
+![Logo](freequizexam-main-logo.svg)
 
 
 # WebQuiz
