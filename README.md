@@ -1,9 +1,9 @@
-![Logo](freequizexam-main-logo.svg)
+![Logo](freeQuizExam-main-logo.svg)
 
 
-# WebQuiz
+# freeQuizExam
 
- Accessible test as Quiz to assess readiness for emans.
+Free, Accessible and Responsive online test to assess readiness for cerification exam or education.
  Try it if you take ceritfiation exam to pursue the following :
  * Desire to advance or be promoted in my current job
  * Desire to make a job change
@@ -29,7 +29,8 @@ Web browser
 
 ## Lessons Learned
 
-- The fundamental about HTML, CSS has been reviewed.
+- Review the fundamental about HTML, CSS.
+- Learning Responsive Web Design, Accessibility.
 
 ## Acknowledge
 
