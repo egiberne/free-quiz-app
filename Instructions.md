@@ -12,6 +12,10 @@ Give your page a meta element with an appropriate charset value.
 
 The charset attribute specifies the character encoding of the page, and, nowadays, UTF-8 is the only encoding supported by most browsers.
 
+# Step 3
+Continuing with the meta elements, a viewport definition tells the browser how to render the page. Including one betters visual accessibility on mobile, and improves SEO (search engine optimization).
+
+Add a viewport definition with a content attribute detailing the width and initial-scale of the page.
 
 
 # Step 33
