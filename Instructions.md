@@ -25,7 +25,7 @@ Group the relevant inputs together such that only one input from a pair can be s
 
 
 ## Step 34
-To prevent unnecessary repetition, target the before pseudo-element of the p element, and give it a content property of "Question #".
+To prevent unnecessary repetition, target the before pseudo-element of the p element, and give it a content property of *"Question #"*.
 
 ## Step 35
 The final section of this quiz will contain a dropdown, and a text box.
@@ -50,3 +50,29 @@ Then, give the `textarea` **placeholder** text describing an example answer.
 
 ## Step 40
 As with the other `input` and `label` elements, link the `textarea` to its corresponding `label` element, and give it a `name` attribute.
+
+## Step 41
+Do not forget to give your `form` a submit button with the text `Send`.
+
+## Step 42
+Two final semantic HTML elements for this project are the `footer` and `address` elements. The `footer` element is a container for a collection of content that is related to the page, and the `address` element is a container for contact information for the author of the page.
+
+After the `main` element, add one `footer` element, and nest one `address` element within it.
+
+# Step 43
+Within the address element, add the following:
+
+***Example Code***
+``` 
+freeCodeCamp <br/>
+San Francisco <br/>
+California <br/>
+USA
+```
+
+The `br` tags will allow each part of the address to be on its own line and are useful for presenting `address` elements properly.
+
+# Step 44
+The `address` element does not have to contain a physical geographical location. It can be used to provide a link to the subject.
+
+Wrap a link around the text *freeCodeCamp*, and set its location to `https://freecodecamp.org`.

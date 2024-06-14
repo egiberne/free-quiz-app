@@ -31,7 +31,7 @@
 
     <main>
 
-        <form action="https://freecodecamp.org/practice-project/accessibility-quiz/" method="POST">
+        <form for="send" action="https://freecodecamp.org/practice-project/accessibility-quiz/" method="POST">
 
         <section role="region" aria-labelledby="student-info"> 
             <h2 id="student-info"> Student Information</h2>
@@ -77,11 +77,11 @@
 
                 <div class="question-block">
 
-                <label for="q1"> Does CSS language have function available ? </label>
+                <label for="q1-selector"> Does CSS language have function available ? </label>
 
                 </div>
                 <div class="answer">
-                    <select id="q1" name="q1" required>
+                    <select id="q1-selector" name="q1-selector" required>
 
                         <option value="">Select an option</option>
                         <option value="yes">Yes</option>
@@ -95,12 +95,12 @@
 
                 <div class="question-block">
 
-                <label> What is the use of CSS ? </label>
+                <label for="q2-text"> What is the use of CSS ? </label>
 
 
                 </div>
                 <div class="answer"></div>
-                <textarea cols="30" rows="10" placeholder="The answer is ..."></textarea>
+                <textarea id="q2-text" name="q2-text" cols="30" rows="10" placeholder="The answer is ..."></textarea>
 
             </div>
             
@@ -109,9 +109,23 @@
 
         
         </section>
-        <input type="submit"  value="submit"> 
+           
+        <!--<input type="submit"  value="submit" value="send"> -->
+        <button type="submit" name="send" value="send">Send</button> 
+
         </form>
     </main>
 </body>
+<footer>
+    <p>&copy; 2024 freeQuizExam</p>
 
+
+<address>
+    <p>For more information, contact <a href="mailto:contact@freeQuizExam.net">freeQuizExam</a></p>
+    freeQuizExam <br/>
+    Toronto <br/>
+    GTA <br/>
+    CA
+</address>
+</footer>
 </html>
