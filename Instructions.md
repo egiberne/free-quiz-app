@@ -1,21 +1,22 @@
 # Learn Accessibility by Building a Quiz
 
-## Step 1 
+
+## Step 1 | Specifies the language of the element's content
 Welcome to the first part of the Accessibility Quiz. As you are becoming a seasoned HTML and CSS developer, we have started you off with the basic boilerplate.
 
-Start this accessibility journey by providing a `lang` attribute to your `html` element. This will assist screen readers in identifying the language of the page.
+Start this accessibility journey by ***providing a `lang` attribute to your `html` element***. This will assist screen readers in identifying the language of the page.
 
-## Step 2
+## Step 2 | Specifies the character encoding
 You may be familiar with the meta element already; it is used to specify information about the page, such as the title, description, keywords, and author.
 
-Give your page a meta element with an appropriate charset value.
+Give your page a meta element with an ***appropriate charset value***.
 
 The charset attribute specifies the character encoding of the page, and, nowadays, *UTF-8* is the only encoding supported by most browsers.
 
-## Step 3
+## Step 3 | Specifies the user's visible area of a web page to make the website look good on all devices
 Continuing with the meta elements, a viewport definition tells the browser how to render the page. Including one betters visual accessibility on mobile, and improves SEO, search engine optimization.
 
-Add a viewport definition with a content attribute detailing the width and initial-scale of the page.
+***Add a viewport definition with a content attribute detailing the width and initial-scale of the page***.
 
 
 ## Step 33
@@ -36,12 +37,12 @@ Begin by nesting a div with a class of formrow, and nest four div elements insid
 Within the div.question-block elements, nest one label element, and add a CSS related question to the label text.
 
 ## Step 37
-Within the first div.answer element, nest one required select element with three option elements.
+Within the first `<div class="answer">` element, nest one required select element with three option elements.
 
 Give the first option element a value of "", and the text Select an option. Give the second option element a value of yes, and the text Yes. Give the third option element a value of no, and the text No.
 
 ## Step 38
-Link the first label element to the select element, and give the select element a name attribute.
+Link the first `label` element to the `select` element, and give the `select` element a `name` attribute.
 
 ## Step 39
 Nest one `textarea` element within the second `<div class="answer">` element, and set the number of rows and columns it has.
@@ -62,8 +63,8 @@ After the `main` element, add one `footer` element, and nest one `address` eleme
 # Step 43
 Within the address element, add the following:
 
-***Example Code***
-``` 
+### Example Code ###
+```html
 freeQuizExam <br/>
 Toronto<br/>
 Ontario <br/>
@@ -80,8 +81,8 @@ Wrap a link around the text *freeQuizExam*, and set its location to `https://fre
 # Step 45
 Back to styling the page. Select the list elements within the navigation bar, and give them the following styles:
 
-***Example Code***
-```
+### Example Code ###
+```css
 color: #dfdfe2;
 margin: 0 0.2rem;
 padding: 0.2rem;
@@ -92,3 +93,34 @@ display: block;
 On the topic of visual accessibility, contrast between elements is a key factor. For example, the contrast between the text and the background of a heading should be at least **4.5:1**.
 
 Change the font color of all the anchor elements within the list elements to something with a contrast ratio of at least **7:1**.
+
+# Step 47
+To make the navigation buttons look more like typical buttons, ***remove the underline from the anchor tags***.
+
+Then, create a new selector targeting the navigation list elements so that ***when the cursor hovers over them, the background color and text color are switched, and the cursor becomes a pointer***.
+
+
+## Step 48
+Tidy up the `header`, by using *Flexbox* to put space between the children, and vertically center them.
+
+Then, fix the `header` to the top of the *viewport*.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Acknowledge 
+- See the Markdown Cheatsheet on [Markdown Guide](www.markdownguide.org "Reference website about Markdown Language.")
+
+- Learn to code HTLML, CSS, Javascript ... on [W3shools](www.w3schools.com "World's largest web developer site.")
+

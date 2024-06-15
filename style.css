@@ -47,6 +47,13 @@ nav > ul {
 /*Change the font color of all the anchor elements within the list elements to a contrast ratio of at least 7:1 */
 nav a {
   color: #fcfcfc;
+  text-decoration: none;
+}
+
+nav li:hover {
+  color: #1b1b32;
+  background-color: #dfdfe2;
+  cursor: pointer;
 }
 
 
@@ -56,6 +63,7 @@ nav li {
   padding: 0.2rem;
   display: block;
 }
+
 
 h1, h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -82,3 +90,4 @@ h2 {
 p::before {
   content: "Question #";
 }
+
