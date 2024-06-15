@@ -10,16 +10,16 @@ You may be familiar with the meta element already; it is used to specify informa
 
 Give your page a meta element with an appropriate charset value.
 
-The charset attribute specifies the character encoding of the page, and, nowadays, UTF-8 is the only encoding supported by most browsers.
+The charset attribute specifies the character encoding of the page, and, nowadays, *UTF-8* is the only encoding supported by most browsers.
 
 ## Step 3
-Continuing with the meta elements, a viewport definition tells the browser how to render the page. Including one betters visual accessibility on mobile, and improves SEO (search engine optimization).
+Continuing with the meta elements, a viewport definition tells the browser how to render the page. Including one betters visual accessibility on mobile, and improves SEO, search engine optimization.
 
 Add a viewport definition with a content attribute detailing the width and initial-scale of the page.
 
 
 ## Step 33
-If you click on the radio inputs, you might notice both inputs within the same true/false fieldset can be selected at the same time.
+If you click on the radio inputs, you might notice both inputs within the same **true/false** fieldset can be selected at the same time.
 
 Group the relevant inputs together such that only one input from a pair can be selected at a time.
 
@@ -64,10 +64,10 @@ Within the address element, add the following:
 
 ***Example Code***
 ``` 
-freeCodeCamp <br/>
-San Francisco <br/>
-California <br/>
-USA
+freeQuizExam <br/>
+Toronto<br/>
+Ontario <br/>
+CA
 ```
 
 The `br` tags will allow each part of the address to be on its own line and are useful for presenting `address` elements properly.
@@ -75,4 +75,20 @@ The `br` tags will allow each part of the address to be on its own line and are 
 # Step 44
 The `address` element does not have to contain a physical geographical location. It can be used to provide a link to the subject.
 
-Wrap a link around the text *freeCodeCamp*, and set its location to `https://freecodecamp.org`.
+Wrap a link around the text *freeQuizExam*, and set its location to `https://freeQuizExam.org`.
+
+# Step 45
+Back to styling the page. Select the list elements within the navigation bar, and give them the following styles:
+
+***Example Code***
+```
+color: #dfdfe2;
+margin: 0 0.2rem;
+padding: 0.2rem;
+display: block;
+```
+
+# Step 46
+On the topic of visual accessibility, contrast between elements is a key factor. For example, the contrast between the text and the background of a heading should be at least **4.5:1**.
+
+Change the font color of all the anchor elements within the list elements to something with a contrast ratio of at least **7:1**.

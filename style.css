@@ -44,6 +44,19 @@ nav > ul {
 } 
 
 
+/*Change the font color of all the anchor elements within the list elements to a contrast ratio of at least 7:1 */
+nav a {
+  color: #fcfcfc;
+}
+
+
+nav li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
 h1, h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
