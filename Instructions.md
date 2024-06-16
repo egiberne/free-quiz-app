@@ -110,7 +110,7 @@ When the screen width is small, the `h1` does not wrap its text content how it s
 
 Then, give the `main` padding such that the **Student Info** section `header` can be fully seen.
 
-## Step 50 | Specifies UL element for small screen
+## Step 50 | Specifies `ul` element for small screen
 On small screens, the unordered list in the navigation bar overflows the right side of the screen.
 
 Fix this by using Flexbox to *wrap* the `ul `content. Then, set the following CSS properties to correctly *align* the text:
@@ -123,10 +123,14 @@ margin-block: 0;
 height: 100%;
 ```
 
-## Step 51
+## Step 51 | Specifies the size of the `section` element
 Set the *width* of the `section` elements to **80%** of their parent container. Then, use margins to *center* the `section` elements, adding **10px** to the *bottom* *margin*.
 
 Also, ensure the `section` elements cannot be larger than **600px** in *width*.
+
+
+## Step 52
+Replace the *top* *margin* of the `h2` elements with *60px* of *top* *padding*.
 
 
 
