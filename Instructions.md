@@ -100,16 +100,33 @@ To make the navigation buttons look more like typical buttons, ***remove the und
 Then, create a new selector targeting the navigation list elements so that ***when the cursor hovers over them, the background color and text color are switched, and the cursor becomes a pointer***.
 
 
-## Step 48
-Tidy up the `header`, by using *Flexbox* to put space between the children, and vertically center them.
+## Step 48 | Using Flexbox
+Tidy up the `header`, by using *Flexbox* to put *space between* the children, and vertically *center* them.
 
-Then, fix the `header` to the top of the *viewport*.
+Then, fix the `header` to the *top* of the *viewport*.
 
+## Step 49 | Specifies H1 element for small screen
+When the screen width is small, the `h1` does not wrap its text content how it should. Align the text for the `h1` element in the *center*.
 
+Then, give the `main` padding such that the **Student Info** section `header` can be fully seen.
 
+## Step 50 | Specifies UL element for small screen
+On small screens, the unordered list in the navigation bar overflows the right side of the screen.
 
+Fix this by using Flexbox to *wrap* the `ul `content. Then, set the following CSS properties to correctly *align* the text:
 
+### Example Code
+```css
+align-items: center;
+padding-inline-start: 0;
+margin-block: 0;
+height: 100%;
+```
 
+## Step 51
+Set the *width* of the `section` elements to **80%** of their parent container. Then, use margins to *center* the `section` elements, adding **10px** to the *bottom* *margin*.
+
+Also, ensure the `section` elements cannot be larger than **600px** in *width*.
 
 
 
