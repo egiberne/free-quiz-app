@@ -90,6 +90,8 @@ h1, h2 {
 
 h2 {
   border-bottom: 4px solid   #dfdfe2;
+  padding-top : 60px;
+  margin-top : 0;
 }
 
 .sr-only {
@@ -115,4 +117,19 @@ section {
   max-width: 600px;
   margin: 0 0 10px 0;
 
+}
+
+.info {
+padding : 50px 0 0 100px;
+
+}
+
+
+.formrow {
+  margin-top : 100px ;
+  padding : 0 100px 0 100px;
+}
+
+input  {
+  font-size: 25px;
 }

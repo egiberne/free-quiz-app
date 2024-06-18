@@ -137,13 +137,14 @@ Replace the *top* `margin` of the `h2` elements with **60px** of *top* `padding`
 Add `padding` to the top and left of the `.info` elements, and set the other values to **0**.
 
 
-## Step 54 
+## Step 54 | Specifies the style of the `form` element
 Give the `.formrow` elements top `margin`, and left and right `padding`. The other padding values should be **0**.
 
-Then, ***increase the font size for all input elements***.
+Then, ***increase the `font-size` for all input elements***.
 
 
-
+## Step 55
+To make the first `section` look more `inline`, target only the input elements within `.info` elements, and set their width to **50%**, and `left-align` their text.
 
 
 
