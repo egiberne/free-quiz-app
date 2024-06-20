@@ -133,3 +133,11 @@ padding : 50px 0 0 100px;
 input  {
   font-size: 25px;
 }
+
+.info > input {
+
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+
+}

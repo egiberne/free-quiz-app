@@ -56,7 +56,7 @@ As with the other `input` and `label` elements, link the `textarea` to its corre
 Do not forget to give your `form` a submit button with the text `Send`.
 
 ## Step 42
-Two final semantic HTML elements for this project are the `footer` and `address` elements. The `footer` element is a container for a collection of content that is related to the page, and the `address` element is a container for contact information for the author of the page.
+Two final s  ntic HTML elements for this project are the `footer` and `address` elements. The `footer` element is a container for a collection of content that is related to the page, and the `address` element is a container for contact information for the author of the page.
 
 After the `main` element, add one `footer` element, and nest one `address` element within it.
 
@@ -143,8 +143,11 @@ Give the `.formrow` elements top `margin`, and left and right `padding`. The oth
 Then, ***increase the `font-size` for all input elements***.
 
 
-## Step 55
-To make the first `section` look more `inline`, target only the input elements within `.info` elements, and set their width to **50%**, and `left-align` their text.
+## Step 55 | Specifies the `input` element within `info` class
+To make the first `section` look more `inline`, target only the input elements within `.info` elements, and set their` width` to **50%**, and `left-align` their text.
+
+## Step 56 |
+Target all `label` elements within `.info` elements, and set their `width` to **10%**, and make it so they do not take up less than **55px**.
 
 
 
