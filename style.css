@@ -141,3 +141,9 @@ input  {
   text-align: left;
 
 }
+
+
+.info label {
+  width: 10%;
+  min-width: 55px;
+}

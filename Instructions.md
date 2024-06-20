@@ -146,8 +146,15 @@ Then, ***increase the `font-size` for all input elements***.
 ## Step 55 | Specifies the `input` element within `info` class
 To make the first `section` look more `inline`, target only the input elements within `.info` elements, and set their` width` to **50%**, and `left-align` their text.
 
-## Step 56 |
+## Step 56 | Specifies the `label` element into `info` class
 Target all `label` elements within `.info` elements, and set their `width` to **10%**, and make it so they do not take up less than **55px**.
+
+
+## Step 57 | 
+To align the input boxes with each other, create a new ruleset that targets all input and label elements within an .info element and set the display property to inline-block.
+
+Also, align the label element's text to the right.
+
 
 
 
