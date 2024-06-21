@@ -3,17 +3,12 @@
 
 # freeQuizExam
 
-Free, Accessible and Responsive online test to assess readiness for cerification exam or education.
- Try it if you take ceritfiation exam to pursue the following :
- * Desire to advance or be promoted in my current job
- * Desire to make a job change
- * Desire to find work 
- * Desire to obtain a specific IT role
- * Desire to obtain skills, knowledge, or competence
- * Desire to enhance my professional profile & resume
- * Desire to supplement my application for program or college admittance
- * Desire to fulfill a work or school requirement
- * Desire to make a job change
+Accessibility is making your webpage easy for all people to use – even people with disabilities.
+In this course, building a quiz webpage. Learning accessibility tools such as :
+* keyboard shortcuts, 
+* ARIA attributes
+* design best practices.
+
 
 ## Tech Stack
 
