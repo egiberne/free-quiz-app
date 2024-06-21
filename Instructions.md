@@ -174,13 +174,14 @@ padding-top: 5px;
 ## Step 59 | Specifies `p` elements
 Make the **paragraph elements** appear as a **higher priority**, with the following CSS properties:
 
+<details>
 <summary> ### Example Code </summary>
 ```css
 margin-top: 5px;
 padding-left: 15px;
 font-size: 20px;
 ```
-
+</details>
 
 ## Step 60
 It is useful to see the default border around the fieldset elements, during development. However, it might not be the style you want.
