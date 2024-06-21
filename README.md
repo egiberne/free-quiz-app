@@ -3,18 +3,20 @@
 
 # freeQuizExam
 
-Accessibility is making your webpage easy for all people to use – even people with disabilities.
-In this course, building a quiz webpage. Learning accessibility tools such as :
-* keyboard shortcuts, 
-* ARIA attributes
-* design best practices.
+Accessibility is making webpage easy for all people to use – even people with disabilities.
+In this project, we are building a quiz webpage. Learning accessibility tools such as :
+- keyboard shortcuts, 
+- ARIA attributes
+- design best practices.
 
+
+> :information_source: **Note** This is a guided project module, completed end-to-end by following step-by-step instructions. 
 
 ## Tech Stack
 
-**Client:**  HTML, CSS
+- **Client:**  HTML, CSS
 
-**Server:** N/A
+- **Server:** N/A
 
 
 ## Usage
