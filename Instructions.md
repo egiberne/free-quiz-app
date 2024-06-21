@@ -175,9 +175,7 @@ padding-top: 5px;
 Make the **paragraph elements** appear as a **higher priority**, with the following CSS properties:
 
 <details>
-<summary> Snippet </summary>
-
-### Example Code
+<summary> <h3> Example Code </h3></summary>
 
 ```css
 margin-top: 5px;
