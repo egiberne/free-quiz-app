@@ -10,7 +10,7 @@ In this project, we are building a quiz webpage. Learning accessibility tools su
 - design best practices.
 
 
-> :information_source: **Note** This is a guided project module, completed end-to-end by following step-by-step instructions. 
+> :information_source: **Note:** This is a guided project module, completed end-to-end by following step-by-step instructions. 
 
 ## Tech Stack
 
