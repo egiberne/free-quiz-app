@@ -29,7 +29,11 @@ Web browser
 
 ## Acknowledge
 
-[freeCodeCamp - learn-accessibility-by-building-a-quiz](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz)
+- Learn to Code [freeCodeCamp - learn-accessibility-by-building-a-quiz](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz "From the Front-End Developer Roadmap")
+
+- See the Markdown Cheatsheet on [Markdown Guide](www.markdownguide.org "Reference website about Markdown Language.")
+
+- Learn to code HTLML, CSS, Javascript ... on [W3shools](www.w3schools.com "World's largest web developer site.")
 
 
 

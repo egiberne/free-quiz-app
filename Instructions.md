@@ -195,11 +195,3 @@ Remove the border and bottom padding on the .question elements.
 
 
 
-
-
-
-## Acknowledge 
-- See the Markdown Cheatsheet on [Markdown Guide](www.markdownguide.org "Reference website about Markdown Language.")
-
-- Learn to code HTLML, CSS, Javascript ... on [W3shools](www.w3schools.com "World's largest web developer site.")
-
