@@ -174,7 +174,7 @@ padding-top: 5px;
 ## Step 59 | Specifies `p` elements
 Make the **paragraph elements** appear as a **higher priority**, with the following CSS properties:
 
-### Example Code
+<summary> ### Example Code </summary>
 ```css
 margin-top: 5px;
 padding-left: 15px;
