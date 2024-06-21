@@ -150,10 +150,49 @@ To make the first `section` look more `inline`, target only the input elements w
 Target all `label` elements within `.info` elements, and set their `width` to **10%**, and make it so they do not take up less than **55px**.
 
 
-## Step 57 | 
-To align the input boxes with each other, create a new ruleset that targets all input and label elements within an .info element and set the display property to inline-block.
+## Step 57 | Specifies display and alignment for `input` and `label` elements
+To align the `input` boxes with each other, create a new ruleset that targets all `input` and `label` elements within an `.info` element and set the `display` property to `inline-block`.
 
-Also, align the label element's text to the right.
+Also, align the `label` element's text to the `right`.
+
+
+
+## Step 58 | Specifies the `.question-block `elements
+To neaten the `.question-block` elements, set the following CSS properties:
+
+### Example Code 
+
+```css
+text-align: left;
+display: block;
+width: 100%;
+margin-top: 20px;
+padding-top: 5px;
+```
+
+
+## Step 59 | Specifies `p` elements
+Make the **paragraph elements** appear as a **higher priority**, with the following CSS properties:
+
+### Example Code
+```css
+margin-top: 5px;
+padding-left: 15px;
+font-size: 20px;
+```
+
+
+## Step 60
+It is useful to see the default border around the fieldset elements, during development. However, it might not be the style you want.
+
+Remove the border and bottom padding on the .question elements.
+
+
+
+
+
+
+
 
 
 
