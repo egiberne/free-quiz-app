@@ -166,7 +166,7 @@ input  {
   font-size: 20px;
 }
 
-/*Remove the border and padding from the question class*/
+/*Remove the border and padding from the question class.*/
 .question {
   border: 0px none;
   padding-bottom: 0px;
