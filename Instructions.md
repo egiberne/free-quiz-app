@@ -184,16 +184,49 @@ font-size: 20px;
 ```
 </details>
 
-## Step 60
-It is useful to see the default border around the fieldset elements, during development. However, it might not be the style you want.
+## Step 60 | Specifies the `fieldset` element
+It is useful to see the default `border` around the `fieldset` elements, during development. However, it might not be the style you want.
 
-Remove the border and bottom padding on the .question elements.
-
-
+Remove the `border` and bottom padding on the .question elements.
 
 
+## Step 61 | Specifies the `ul` and `il` element
+While `ul`/`li`elements are great at providing bullets for list items, your radio buttons don't need them. You can control what the bullets look with the list-style property. 
+*For example you can turn your bullets into `circles` with the following:*
+
+<details>
+<summary> <h3> Example Code </h3> </summary>
+
+```css
+ul {
+  list-style: circle;
+}
+```
 
 
+</details>
+
+Remove the default styling for the `.answers-list` items by setting its `style` to `none`, and remove the unordered list `padding`.
+
+
+
+## Step 62 | Specifies the button element
+Give the submit `button` a freeCodeCamp-style design, with the following CSS properties:
+
+<details>
+<summary> <h3> Example Code </h3> </summary>
+
+```css
+display: block;
+margin: 40px auto;
+width: 40%;
+padding: 15px;
+font-size: 23px;
+background: #d0d0d5;
+border: 3px solid #3b3b4f;
+```
+
+</details>
 
 
 
